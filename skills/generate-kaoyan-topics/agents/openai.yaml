@@ -1,0 +1,13 @@
+interface:
+  display_name: 考研选题生成器
+  short_description: 从高互动作品研究和人群需求出发，生成钩子、正文交付与可测试的考研选题
+  default_prompt: 请用 $generate-kaoyan-topics 先参考高互动作品作出判断，再分析目标人群和适用的传播技巧，生成10个原创考研选题，并展开最适合先拍的3个。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
